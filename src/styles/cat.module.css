@@ -1,0 +1,13 @@
+.head {
+    margin: 2rem 1rem;
+}
+
+.event {
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.event a {
+    margin: 20px;
+}
