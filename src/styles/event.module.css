@@ -1,0 +1,17 @@
+.head{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.link{
+    position: relative;
+}
+.link .h2{
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 20px #000;
+}

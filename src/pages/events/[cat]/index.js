@@ -11,9 +11,11 @@ const EventsPerCatPage = ({ data, pageName }) => {
                 {
                     data.map(data => (
                         <Link key={data.id} href={`/events/${data.city}/${data.id}`} passHref>
-                            <Image src={data.image} alt={data.title} height={200} width={200} />
-                            <h2>${data.title}</h2>
-                            <p>{data.description}</p>
+                            <div className={styles.event2}>
+                                <Image src={data.image} alt={data.title} height={300} width={300} className={styles.img} />
+                                <h2 className={styles.h2}>${data.title}</h2>
+                                <p className={styles.p}>{data.description}</p>
+                            </div>
                         </Link>
                     ))
                 }
