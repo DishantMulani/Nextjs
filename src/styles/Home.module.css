@@ -55,11 +55,11 @@
 
 .image_text:nth-child(even) .text {
   text-align: left;
+  padding: 25px 50px 25px 0px;
 }
 
 .text {
-  display: flex;
-  flex-direction: column;
+  padding: 25px 0px 25px 50px;
 }
 
 
